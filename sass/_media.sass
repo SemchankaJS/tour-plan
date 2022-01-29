@@ -21,10 +21,30 @@
   .search
     &__input
       max-width: 340px
+
 @media (max-width: 768px)
   .container
-    max-width: 576px
+    max-width: 670px
     width: 92%
+  .navbar
+    &-top
+      padding-top: 30px
+      padding-bottom: 30px
+    &__search
+      margin-left: auto
+    &-menu
+      padding-top: 22px
+      padding-bottom: 22px
+      &__link
+        font-size: 12px
+        line-height: 15px
+
+@media (max-width: 680px)
+  .logo
+    width: 130px
+  .container
+
+    width: 85%
   .navbar
     &__search, &-menu, &__user
       display: none
@@ -47,12 +67,19 @@
 
 @media (max-width: 576px)
   .logo
-    width: 99px
+    width: 130px
 
 @media (max-width: 480px)
   .logo
     width: 120px
 
 @media (max-width: 320px)
+  .container
+    max-width: 280px
+    width: 85%
+  .navbar
+    &-top
+      height: 70px
   .logo
-    width: 99px
+    width: 100px
+    height: 13px
