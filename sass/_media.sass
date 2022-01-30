@@ -43,11 +43,27 @@
   .logo
     width: 130px
   .container
-
     width: 85%
   .navbar
     &__search, &-menu, &__user
       display: none
+  .hotel
+    &-name
+      flex-basis: 100%
+    &-wraper
+      justify-content: space-between
+    &-info
+      &__name
+        margin-top: 10px
+        margin-bottom: 0
+      &__text
+        width: 100%
+      &__rating
+        display: none
+      &__offer
+        order: -1
+        margin-left: 0
+
   .menu
     &-button
       display: flex
@@ -64,6 +80,8 @@
         width: 16px
         height: 1px
         background-color: $text-color
+  .stars
+    flex-basis: auto
 
 @media (max-width: 576px)
   .logo
