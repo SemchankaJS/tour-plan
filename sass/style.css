@@ -659,7 +659,7 @@ template {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-  .hotel-wraper {
+  .hotel-wrapper {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
