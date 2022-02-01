@@ -25,10 +25,14 @@
 @media (max-width: 768px)
   .container
     max-width: 700px
+    padding-right: 15px
+    padding-left: 15px
   .navbar
     &-top
       padding-top: 30px
       padding-bottom: 30px
+      padding-left: 10px
+      padding-right: 10px
     &__search
       margin-left: auto
     &-menu
@@ -62,7 +66,6 @@
       &__offer
         order: -1
         margin-left: 0
-
   .menu
     &-button
       display: flex
@@ -92,10 +95,15 @@
 
 @media (max-width: 320px)
   .container
-    max-width: 280px
+    width: 96%
   .navbar
     &-top
       height: 70px
   .logo
     width: 100px
     height: 13px
+  .hotel
+    &-info
+      &__description
+        font-size: 12px
+        line-height: 15px
