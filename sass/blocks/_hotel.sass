@@ -9,22 +9,20 @@
     &__offer
       margin-left: 14px
       margin-top: 4px
-    &__name
-      margin-top: 4px
-      margin-bottom: 0
-    &__description
-      margin: 5px 0
   &-name
     font-size: 24px
     line-height: 30px
+    margin-top: 4px
+    margin-bottom: 0
   &-wrapper
     display: flex
     flex-wrap: wrap
     align-items: center
-  &-discription
+  &-description
     font-size: 12px
     line-height: 15px
 .stars
+  display: flex
   flex-basis: 100%
 .offer
   font-size: 10px
@@ -46,6 +44,9 @@
   &__counter
     font-size: 14px
     line-height: 18px
+    &-small
+      font-size: 10px
+
 .swiper-container
   width: 100%
   height: 100%
@@ -62,6 +63,8 @@
     bottom: 0
     background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%)
     z-index: 10
+.swiper-slide
+  object-fit: cover
 .slider
   width: 728px
   &-button
@@ -80,7 +83,8 @@
     &--next
       right: 18px
       background-image: url(../img/arrow-next.svg)
-
     &--prev
       left: 18px
       background-image: url(../img/arrow-prev.svg)
+.booking
+  9.25
