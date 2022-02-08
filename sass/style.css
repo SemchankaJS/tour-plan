@@ -999,6 +999,19 @@ template {
     font-size: 12px;
     line-height: 15px;
   }
+  .hotel-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 450px;
+  }
+  .booking {
+    width: 100%;
+  }
+  .map {
+    width: 100%;
+  }
 }
 
 @media (max-width: 680px) {
@@ -1038,19 +1051,6 @@ template {
   }
   .slider {
     height: 350px;
-  }
-  .hotel-right {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    min-height: 450px;
-  }
-  .booking {
-    width: 100%;
-  }
-  .map {
-    width: 100%;
   }
   .menu-button {
     display: -webkit-box;
@@ -1119,6 +1119,12 @@ template {
 @media (max-width: 480px) {
   .logo {
     width: 120px;
+  }
+}
+
+@media (max-width: 320px) {
+  .map {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
