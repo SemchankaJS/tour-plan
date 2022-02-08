@@ -509,7 +509,7 @@ template {
 }
 
 .hotel {
-  padding-top: 23px;
+  padding-top: 5px;
   padding-bottom: 70px;
 }
 
@@ -552,6 +552,7 @@ template {
 .hotel-description {
   font-size: 12px;
   line-height: 15px;
+  margin: 0;
 }
 
 .hotel-grid {
@@ -582,6 +583,10 @@ template {
   display: flex;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
+}
+
+.stars-images {
+  margin-right: 2px;
 }
 
 .offer {
@@ -1114,21 +1119,6 @@ template {
 @media (max-width: 480px) {
   .logo {
     width: 120px;
-  }
-}
-
-@media (max-width: 320px) {
-  .container {
-    width: 92%;
-  }
-  .navbar-top {
-    height: 70px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .logo {
-    width: 100px;
-    height: 13px;
   }
 }
 /*# sourceMappingURL=style.css.map */
