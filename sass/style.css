@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Mulish', sans-serif;
   background-color: #F5FAFE;
   color: #333333;
 }
@@ -509,7 +509,6 @@ template {
 }
 
 .hotel {
-  padding-top: 5px;
   padding-bottom: 70px;
 }
 
@@ -882,7 +881,7 @@ template {
 
 .subscribe {
   position: relative;
-  width: 355px;
+  width: 350px;
   height: 55px;
   border-radius: 4px;
   overflow: hidden;
@@ -1061,6 +1060,9 @@ template {
   .slider {
     width: 590px;
   }
+  .hotel-right {
+    margin-left: 20px;
+  }
   .hotel-slider__image {
     width: 100%;
     height: 100%;
@@ -1108,6 +1110,7 @@ template {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin-left: 0;
   }
   .hotel-slider {
     width: 100%;
@@ -1130,8 +1133,6 @@ template {
   .navbar-top {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .navbar__search {
     margin-left: auto;
@@ -1148,6 +1149,9 @@ template {
   .navbar-menu__link {
     font-size: 12px;
     line-height: 15px;
+  }
+  .hotel {
+    padding-bottom: 60px;
   }
   .hotel-right {
     -webkit-box-orient: vertical;
@@ -1169,7 +1173,7 @@ template {
     width: 130px;
   }
   .container {
-    width: 85%;
+    width: 87%;
   }
   .navbar__search, .navbar-menu, .navbar__user {
     display: none;
@@ -1296,6 +1300,11 @@ template {
 @media (max-width: 320px) {
   .map {
     width: 100%;
+    height: 100%;
+  }
+  .hotel {
+    margin-bottom: 20px;
+    padding-bottom: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
