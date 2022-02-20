@@ -1,6 +1,7 @@
 .newsletter
   position: relative
   padding: 98px 0 87px 0
+  height: 260px
   background-image: url(../img/newslatter-bg.jpeg)
   background-repeat: no-repeat
   background-position: center
@@ -25,6 +26,9 @@
     max-width: 731px
     margin: auto
   &-title
+    display: flex
+    margin: 0
+    flex-direction: column
     color: $light
     font-style: normal
     font-weight: 300
@@ -65,7 +69,9 @@
     border: none
     background-color: $primary
     color: $light
-// .parallax-window
-//   position: absolute
-//   min-height: 260px
-//   background: transparent
+    font-style: normal
+    font-weight: bold
+    font-size: 12px
+    line-height: 15px
+.parallax-window
+  max-height: 260px
