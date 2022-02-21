@@ -109,9 +109,32 @@
   .container
     max-width: 576px
     width: 87%
+  body
+    padding-top: 78px
   .navbar
-    &__search,&-menu,&__user
+    &--mobile
+      &_fixed
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        z-index: 99
+    &__search,&__user
       display: none
+    &-bottom
+      display: none
+      position: fixed
+      right: 0
+      bottom: 0
+      left: 0
+      top: 78px
+      &--visibile
+        display: block
+    &-menu
+      flex-direction: column
+      &__item
+        margin-bottom: 20px
+
     &-top
       padding-top: 28px
       padding-bottom: 28px
@@ -173,7 +196,7 @@
       align-items: flex-start
   .reviews
     &__title
-      margin-bottom: 40px
+      margin-bottom: 50px
     &-slider
       &__item
         padding: 0 30px 30px
@@ -273,3 +296,11 @@
   .hotel
     &-slider
       height: 180px
+  .reviews
+    &__title
+      margin-bottom: 42px
+    &-slider
+      &__text
+        text-align: left
+  .newsletter
+    height: 320px
