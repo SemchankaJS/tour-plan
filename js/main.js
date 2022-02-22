@@ -23,7 +23,7 @@ const reviewsSlider = new Swiper('.reviews-slider', {
 
 $('.parallax-window').parallax({imageSrc: 'img/newslatter-bg.jpeg'});
 
-const menuButton = document.querySelector('.menu-button');
-menuButton = addEventListener("click", function () {
-  document.querySelector('.navbar-bottom').classList.toggle('navbar-bottom--visibile');
-});
+var menuButton = $(".menu-button");
+  menuButton.on("click", function(){    
+    $(".navbar-bottom").toggleClass("navbar-bottom--visible");
+  });
