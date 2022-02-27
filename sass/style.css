@@ -1188,6 +1188,7 @@ template {
 }
 
 .card__button {
+  font-family: Nunito;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -1942,11 +1943,22 @@ template {
   .reviews-slider__text {
     text-align: left;
   }
+  .reviews-slider__item {
+    width: 98%;
+  }
   .newsletter {
     height: 320px;
   }
   .search__input {
     width: 245px;
+  }
+  .activities {
+    padding-bottom: 40px;
+  }
+  .activities__title {
+    margin-bottom: 36px;
+    font-size: 18px;
+    line-height: 23px;
   }
 }
 /*# sourceMappingURL=style.css.map */
